@@ -12,3 +12,5 @@ export const DataCard = () => {
     </>
   );
 };
+
+export default DataCard;
