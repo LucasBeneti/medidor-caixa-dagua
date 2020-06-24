@@ -2,12 +2,13 @@ import React from "react";
 
 import "./datacard.css";
 
-export const DataCard = () => {
+export const DataCard = (props) => {
   return (
     <>
-      <div className="container">
-        <div className="dataTitle">Capacidade</div>
-        <div className="dataValue">58%</div>
+      <div className="dataCard">
+        <div className="dataTitle">{props.dataName}</div>
+        <span>___________________________</span>
+        <div className="dataValue">{props.dataValue}</div>
       </div>
     </>
   );

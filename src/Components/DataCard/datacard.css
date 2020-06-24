@@ -1,0 +1,12 @@
+.dataCard {
+  background-color: brown;
+  color: white;
+  border-radius: 5px;
+  padding: 2em 4em;
+  margin: 1em;
+  /* max-width: 10em; */
+  min-height: 5em;
+  min-width: 5em;
+  text-align: center;
+  justify-content: center;
+}

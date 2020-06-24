@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  height: 100%;
 }
 
 .App-logo {
@@ -35,4 +36,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* minhas coisas */
+
+.container {
+  /* margin: 200px; */
+  height: 100%;
+  padding: 5em;
+  background-color: aqua;
+}
+
+.grid {
+  display: grid;
+  /* padding: 2em; */
+}
+
+.subgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
+
+  justify-content: center;
 }
