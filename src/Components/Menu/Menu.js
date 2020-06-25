@@ -6,9 +6,7 @@ const Menu = () => {
   return (
     <>
       <div className="menu">
-        <span style={{ paddingTop: "1em", height: "inherit" }}>
-          Medidor Louco
-        </span>
+        <p className="menuTitle">Medidor Louco</p>
       </div>
     </>
   );

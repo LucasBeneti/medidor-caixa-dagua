@@ -9,5 +9,8 @@
   font-family: "Bebas Neue";
   font-size: 2em;
   text-align: center;
-  justify-content: center;
+  display: block;
+}
+
+.menuTitle {
 }

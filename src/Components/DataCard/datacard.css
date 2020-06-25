@@ -5,11 +5,11 @@
   /* padding: 2em 4em; */
   margin: 1em;
   /* max-width: 10em; */
-  min-height: 5em;
+  min-height: 7em;
   min-width: 5em;
   text-align: center;
   justify-content: center;
-  font-family: "Roboto", cursive;
+  font-family: "Roboto Regular", cursive;
   font-size: 1.5em;
   box-shadow: -5px 5px 20px #b3b3b3;
 }
