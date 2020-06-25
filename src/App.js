@@ -5,6 +5,9 @@ import Menu from "./Components/Menu/Menu";
 import "./App.css";
 
 const App = () => {
+  // talvez não seja aqui, se for o caso, fazer uma função assim com
+  // switch dentro do componente DataCard dependendo do que for passado
+  // pelas props dele
   function getData() {
     // aqui que acontece os fetchs
   }
