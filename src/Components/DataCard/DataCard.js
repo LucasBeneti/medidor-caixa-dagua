@@ -7,7 +7,6 @@ export const DataCard = (props) => {
     <>
       <div className="dataCard">
         <div className="dataTitle">{props.dataName}</div>
-        <span>___________________________</span>
         <div className="dataValue">{props.dataValue}</div>
       </div>
     </>

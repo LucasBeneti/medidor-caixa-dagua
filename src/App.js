@@ -1,5 +1,6 @@
 import React from "react";
 import DataCard from "./Components/DataCard/DataCard";
+import Menu from "./Components/Menu/Menu";
 
 import "./App.css";
 
@@ -10,11 +11,12 @@ const App = () => {
 
   return (
     <div className="App">
+      <Menu />
       <div className="container">
         <div className="grid">
           <div className="subgrid">
             <div style={{ padding: "2em 4em" }}>
-              <DataCard dataName="Temperatura" dataValue="25°C" />
+              <DataCard dataName="Temperatura Interna" dataValue="25°C" />
             </div>
             <div style={{ padding: "2em 4em" }}>
               <DataCard dataName="Capacidade" dataValue="88%" />

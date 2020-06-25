@@ -44,7 +44,7 @@
   /* margin: 200px; */
   height: 100%;
   padding: 5em;
-  background-color: aqua;
+  background-color: rgb(227, 227, 227);
 }
 
 .grid {
@@ -58,4 +58,14 @@
   grid-column-gap: 1em;
 
   justify-content: center;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Bebas Neue;
+  src: url(./fonts/BebasNeue-Regular.ttf);
 }

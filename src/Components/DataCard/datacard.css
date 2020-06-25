@@ -1,12 +1,25 @@
 .dataCard {
-  background-color: brown;
-  color: white;
+  background-color: white;
+  color: black;
   border-radius: 5px;
-  padding: 2em 4em;
+  /* padding: 2em 4em; */
   margin: 1em;
   /* max-width: 10em; */
   min-height: 5em;
   min-width: 5em;
   text-align: center;
   justify-content: center;
+  font-family: "Roboto", cursive;
+  font-size: 1.5em;
+  box-shadow: -5px 5px 20px #b3b3b3;
+}
+
+.dataTitle {
+  font-weight: 500;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.dataValue {
+  font-weight: 300;
 }
