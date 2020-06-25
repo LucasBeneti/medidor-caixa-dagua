@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  height: 100%;
 }
 
 .App-logo {
@@ -35,4 +36,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* minhas coisas */
+
+.container {
+  /* margin: 200px; */
+  height: 100%;
+  padding: 5em;
+  background-color: rgb(227, 227, 227);
+}
+
+.grid {
+  display: grid;
+  /* padding: 2em; */
+}
+
+.subgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
+
+  justify-content: center;
+}
+
+@font-face {
+  font-family: Roboto Light;
+  src: url(./fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: Roboto Medium;
+  src: url(./fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: Roboto Regular;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Bebas Neue;
+  src: url(./fonts/BebasNeue-Regular.ttf);
 }
