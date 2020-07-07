@@ -6,11 +6,8 @@
   background-color: teal;
   color: white;
 
-  font-family: "Bebas Neue";
+  font-family: "Bebas Neue", "sans-serif";
   font-size: 2em;
   text-align: center;
   display: block;
-}
-
-.menuTitle {
 }
