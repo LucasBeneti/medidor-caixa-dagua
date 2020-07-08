@@ -5,7 +5,6 @@ import "./datacard.css";
 export const DataCard = (props) => {
   //pelo props pega o tipo de dado e assim faz um fetch do data
   // de acordo com o tipo dele
-  let dataName = props.dataName;
   function wichDataFetch(dataName) {
     switch (dataName) {
       case "Temperatura Interna":
