@@ -41,8 +41,9 @@
 /* minhas coisas */
 
 .container {
-  /* margin: 200px; */
-  height: 100%;
+  width: 50%;
+  margin: 0 auto;
+  height: 100vh;
   padding: 5em;
   background-color: rgb(227, 227, 227);
 }

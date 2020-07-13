@@ -1,3 +1,8 @@
+.App {
+  height: 100%;
+  display: block; /* sem certeza */
+}
+
 .dataCard {
   background-color: white;
   color: black;
